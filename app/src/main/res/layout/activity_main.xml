@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_enter"
+    tools:context="com.changs.kelly.math.MainActivity">
+
+
+    <com.changs.kelly.math.anim_enter.EnterView
+        android:id="@+id/enter_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.changs.kelly.math.anim_like.LikeView
+        android:id="@+id/like_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.changs.kelly.math.anim_win.WinView
+        android:id="@+id/win_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.changs.kelly.math.anim_task.TaskDoneView
+        android:id="@+id/task_done_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_anim_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进场动画" />
+
+        <Button
+            android:id="@+id/btn_anim_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点赞" />
+
+
+        <Button
+            android:id="@+id/btn_anim_win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中奖" />
+
+        <Button
+            android:id="@+id/btn_anim_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成任务" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
