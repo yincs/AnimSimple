@@ -1,5 +1,7 @@
-安卓一些简单动画。
+安卓一些简单动画
+=
+ 
+ 很简单的实现方式。 
+ 有疑问欢迎提问。
 
-
-
-![image](https://github.com/yincs/AnimSimple/img/task_done.gif) 
+![任务完成动画](https://github.com/yincs/AnimSimple/blob/master/img/task_done.gif)
