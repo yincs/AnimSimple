@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/iv_shine"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/shine" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_queen"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/queen" />
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/iv_queen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/task_title1" />
+
+        <TextView
+            android:id="@+id/tv_task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@mipmap/tag"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="免费下午茶"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_task_name"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/userbox"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:maxEms="8"
+            android:paddingBottom="7dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="7dp"
+            android:singleLine="true"
+            android:text="宝宝"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</FrameLayout>

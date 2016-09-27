@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <!--标题栏自颜色-->
+    <color name="colorPrimary">#F7F7F9</color>
+    <!--状态栏的颜色-->
+    <color name="colorPrimaryDark">#E21411</color>
+    <!--界面中一些控件的姿色-->
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="red_light">#FF3334</color>
+    <color name="red_dark">#FFAE0900</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_light">#EFEFEF</color>
+    <color name="gray_light_dark">#A2A2A2</color>
+    <color name="gray_light2">#F9F9F9</color>
+    <color name="gray_light2_dark">#B8B8B8</color>
+    <color name="gray">#FF86848A</color>
+
+    <!--zxing-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#ff3b30</color>
+    <!--zxing-->
+
+    <color name="app_background">#EFEFEF</color>
+    <color name="app_background_dark">#55474747</color>
+
+    <color name="text_gray">#86848A</color>
+    <color name="text_black">#000000</color>
+    <color name="text_black_tint">#000000</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_yellow_1">#FDD494</color>
+    <color name="text_red">#FFFF0000</color>
+
+    <color name="line_gray">#86848A</color>
+    <color name="text_cursor">#FF5C51</color>
+
+    <color name="verify_code_enable">#F43131</color>
+    <color name="verify_code_enable_not">#A09FA5</color>
+
+    <color name="shop_area_tab">#C8C7CD</color>
+    <color name="shop_area_tab_press">#B1B0B9</color>
+    <color name="shop_area_tab1">#FF9501</color>
+    <color name="shop_area_tab1_press">#DC7E01</color>
+
+    <color name="user_agree_color">#5B69E3</color>
+
+    <color name="shake_city_color">#DA251C</color>
+    <color name="shake_around_color">#FEA721</color>
+    <color name="shake_task_color">#1BBDFE</color>
+
+    <color name="orange">#FF9501</color>
+    <color name="orange_dark">#A96201</color>
+
+    <color name="carbon">#FF3F3F3F</color>
+    <color name="carbon_dark">#141414</color>
+
+    <color name="cyan">#6FB944</color>
+    <color name="cyan_dark">#4F8130</color>
+    <color name="cyan_light">#effbeb</color>
+    <color name="blue">#157efb</color>
+    <color name="blue_dark">#035AC5</color>
 </resources>

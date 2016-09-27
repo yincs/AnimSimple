@@ -5,28 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg_enter"
-    tools:context="com.changs.kelly.math.MainActivity">
+    tools:context="com.changs.sample.anim.MainActivity">
 
-
-    <com.changs.kelly.math.anim_enter.EnterView
-        android:id="@+id/enter_view"
+    <com.changs.sample.anim.anim.AnimGroup
+        android:id="@+id/animGroup"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <com.changs.kelly.math.anim_like.LikeView
-        android:id="@+id/like_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <com.changs.kelly.math.anim_win.WinView
-        android:id="@+id/win_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <com.changs.kelly.math.anim_task.TaskDoneView
-        android:id="@+id/task_done_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:clipChildren="false" />
 
     <LinearLayout
         android:layout_width="match_parent"
